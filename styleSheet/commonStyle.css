@@ -1,0 +1,127 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+a:link    {color: #4F2F1F; text-shadow: 1px 1px 2px #4F2F1F;}
+a:visited {color: #4F1F4F; text-shadow: 1px 1px 2px #4F1F4F;}
+a:hover   {color: #4F2F1F; text-shadow: 1px 1px 2px #4F2F1F; font-weight: 600;}
+a:active  {color: #4F2F1F; text-shadow: 1px 1px 2px #4F2F1F;}
+a {text-decoration: none;}
+
+body {
+	width: 1280px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:  url("../images/background-left-top.png"), 
+					   url("../images/background-left-bottom.png"),
+					   url("../images/background-right-top.png"), 
+					   url("../images/background-right-bottom.png"),
+					   url("../images/background.jpg");
+	background-position: 8% top, left bottom, right top, right bottom;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+	background-size: 15%, 25%, 40%, 25%, 100%;
+	font-family: "华文行楷", "华文隶书", "隶书", serif, Verdana, Tahoma;
+}	 
+
+#nav {
+	width:100%;
+	min-height:200px;
+}
+#navigation > li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align:top;
+	float: right;
+	width: 120px;     
+	-webkit-border-image: url("../images/button.png") 48% 20% 48% 20%  stretch  repeat;
+	-moz-border-image: url("../images/button.png") 48% 20% 48% 20% stretch  repeat;
+	-o-border-image: url("../images/button.png") 48% 20% 48% 20%  stretch  repeat;
+	-ms-border-image: url("../images/button.png") 48% 20% 48% 20% stretch  repeat;
+	border-width: 15px 20px;
+
+	font-family: "隶书", "华文行楷", serif, Verdana, Tahoma;
+	text-align: center;
+	font-size: 13pt;
+	font-weight: 900;
+	color: #402010;
+	text-shadow: 1px 1px 2px #402010;
+}
+
+#navigation > li > ul > li {
+	display: block;
+	padding-bottom: 5px;
+	
+	font-size: 11pt;
+	text-align: center;
+	font-weight: 400;
+	color: #4F2F1F;
+	text-shadow: 1px 1px 2px #4F2F1F;
+}
+
+#logo {
+	color: #4F2F1F;
+}
+
+#main {
+	display: block;
+	width: 95%;
+	min-height: 500px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background-image:  url("../images/main.png");
+	background-position: 0 16px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	
+}
+
+#content{
+	padding-left:20px;
+	padding-right:20px;
+
+	-webkit-border-image: url("../images/content.png") 104 265 104 265  stretch  repeat;
+	-moz-border-image: url("../images/content.png") 104 265 104 265  stretch  repeat;
+	-o-border-image: url("../images/content.png") 104 265 104 265  stretch  repeat;
+	-ms-border-image: url("../images/content.png") 104 265 104 265  stretch  repeat;
+	border-width: 60px 200px 60px 200px;
+
+	font-family: "华文行楷", "华文隶书", "隶书", serif, Verdana, Tahoma;
+	font-size: 11pt;
+	font-weight: 200;
+	color: #402010;
+	text-shadow: 1px 1px 2px #402010;
+}
+#content ul{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#content ul li{
+	display: block;
+	font-size: 14pt;
+}
+
+#copyright {
+	text-align: center;
+}
+#copyright p{
+	font-family: "华文隶书", "隶书", "华文行楷", serif, Verdana, Tahoma;
+	font-style: italic;
+	font-size: 11pt;
+	color: #402010;
+	font-weight: 400;
+	color: #4F2F1F;
+	text-shadow: 1px 1px 2px #402010;
+}
+
+.photoContainer img{
+	width: 170px;
+	height: 100px;
+	margin: 30px;
+	padding: 0;
+}
